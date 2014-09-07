@@ -55,10 +55,12 @@ endif
 syntax on
 set ruler
 set nu
+set noerrorbells
 set autoindent
 set smartindent 
 set shiftwidth=4
 set tabstop=4
 set showmatch
 set background=dark
+set showcmd
 colorscheme solarized
