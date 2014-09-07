@@ -52,10 +52,8 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-syntax on
 set ruler
 set nu
-set noerrorbells
 set autoindent
 set smartindent 
 set shiftwidth=4
@@ -64,3 +62,7 @@ set showmatch
 set background=dark
 set showcmd
 colorscheme solarized
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
