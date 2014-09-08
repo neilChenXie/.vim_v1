@@ -52,6 +52,10 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 set ruler
 set nu
 set autoindent
@@ -63,6 +67,6 @@ set background=dark
 set showcmd
 colorscheme solarized
 
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
+map <F5> <Esc>:EnableFastPHPFolds<Cr>
+map <F6> <Esc>:EnablePHPFolds<Cr>
+map <F7> <Esc>:DisablePHPFolds<Cr>
