@@ -8,7 +8,9 @@ install extensions via pathogen:
 plugin list:
 
 	surround.vim:
-	jslint.vim: need node.js
+	jslint.vim: 
+		node.js
+		sudo npm install -g jshint
 	ZenCoding.vim:
 	Syntastic:
 	phpfolding.vim:
