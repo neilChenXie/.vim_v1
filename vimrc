@@ -66,6 +66,7 @@ set showmatch
 set background=dark
 set showcmd
 colorscheme solarized
+helptags ~/.vim/doc
 
 map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
