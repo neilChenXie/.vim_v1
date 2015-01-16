@@ -15,3 +15,6 @@ plugin list:
 	Syntastic:
 	phpfolding.vim:
 		in vimrc, add map command
+	c.vim:
+		in ./c-support/templates revise to meet my habit:
+			\im <iostream> <cstdlib> <type.h> using namepace std;
