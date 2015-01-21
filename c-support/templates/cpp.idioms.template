@@ -19,12 +19,12 @@ static void<CURSOR>
 <SPLIT>	return <+return_value+>;
 }		// -----  end of static function |FUNCTION_NAME|  -----
 == Idioms.main == map:im, shortcut:m  ==
-#include	<iostream>
-#include	<cstdlib>
-#include	<string>
-#include	<stdio.h>
-#include	<string.h>
-#include	<stdint.h>
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include <stdio.h>
+#include <string.h>
+#include <stdint.h>
 using namespace std;
 
 int main ( int argc, char *argv[] )
