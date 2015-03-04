@@ -12,9 +12,12 @@ plugin list:
 		node.js
 		sudo npm install -g jshint
 	ZenCoding.vim:
-	Syntastic:
+	Syntastic: error check
 	phpfolding.vim:
 		in vimrc, add map command
 	c.vim:
 		in ./c-support/templates revise to meet my habit:
 			\im <iostream> <cstdlib> <type.h> using namepace std;
+
+3/3/2015:
+	add C++11 support for syntastic (one line in vimre)

@@ -69,6 +69,9 @@ set showcmd
 colorscheme solarized
 helptags ~/.vim/doc
 
+"syntastic support C++11
+let g:syntastic_cpp_compiler_options = ' -std=c++0x'
+
 map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>

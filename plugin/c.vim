@@ -176,8 +176,8 @@ call s:C_SetGlobalVariable ( 'C_CFlags', '-Wall -g -O0 -c')
 call s:C_SetGlobalVariable ( 'C_LFlags', '-Wall -g -O0'   )
 call s:C_SetGlobalVariable ( 'C_Libs',   '-lm'            )
 "
-call s:C_SetGlobalVariable ( 'C_CplusCFlags', '-Wall -g -O0 -c')
-call s:C_SetGlobalVariable ( 'C_CplusLFlags', '-Wall -g -O0'   )
+call s:C_SetGlobalVariable ( 'C_CplusCFlags', '-Wall -g -O0 -c -std=c++0x')
+call s:C_SetGlobalVariable ( 'C_CplusLFlags', '-Wall -g -O0 -std=c++0x'   )
 call s:C_SetGlobalVariable ( 'C_CplusLibs',   '-lm'            )
 call s:C_SetGlobalVariable ( 'C_Debugger',    'gdb'            )
 "
