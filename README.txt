@@ -8,9 +8,6 @@ install extensions via pathogen:
 plugin list:
 
 	surround.vim:
-	jslint.vim: 
-		node.js
-		sudo npm install -g jshint
 	ZenCoding.vim:
 	Syntastic: error check
 	phpfolding.vim:
@@ -21,3 +18,5 @@ plugin list:
 
 3/3/2015:
 	add C++11 support for syntastic (one line in vimre)
+	rm jslint because syntastic included.
+	no nodejs needed
