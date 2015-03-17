@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/chen/Dropbox/Project/AWS/similarity/similarity/input'
 let g:netrw_dirhist_2='/home/chen/Dropbox/Project/AWS/similarity/similarity/part/input'
 let g:netrw_dirhist_3='/home/chen/.vim/bundle/jshint.vim'
 let g:netrw_dirhist_4='/home/chen/.vim/plugin'
 let g:netrw_dirhist_5='/home/chen/.vim/c-support/codesnippets'
 let g:netrw_dirhist_6='/home/chen/Project/contiki/platform/sky/dev'
+let g:netrw_dirhist_7='/home/chen/Project/contiki/examples'
+let g:netrw_dirhist_8='/home/chen/Project/contiki/examples/sky'

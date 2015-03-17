@@ -20,3 +20,5 @@ plugin list:
 	add C++11 support for syntastic (one line in vimre)
 	rm jslint because syntastic included.
 	no nodejs needed
+3/14/2015:
+	ubuntu 12.02 must fork under /etc/vim
