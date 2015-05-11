@@ -15,6 +15,8 @@ plugin list:
 	c.vim:
 		in ./c-support/templates revise to meet my habit:
 			\im <iostream> <cstdlib> <type.h> using namepace std;
+	YouCompleteMe
+	tern_for_vim
 
 3/3/2015:
 	add C++11 support for syntastic (one line in vimre)
@@ -24,3 +26,4 @@ plugin list:
 	ubuntu 12.02 must fork under /etc/vim
 5/10/2015:
 	YouCompleteMe autocompletion with CMake succeed
+	add Node.js autocompletion
