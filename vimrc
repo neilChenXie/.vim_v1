@@ -52,6 +52,7 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+""""""""""""""'pathogen""""""""""""""
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -69,15 +70,27 @@ set showcmd
 colorscheme solarized
 helptags ~/.vim/doc
 
-"syntastic support C++11
+""""""""""""file for YouCompleteMe"""""""""""""""""
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_error_symbol = '>>'
+let g:ycm_warning_symbol = '>*'
+
+""""""""""""syntastic support C++11""""""""""""""""
 let g:syntastic_cpp_compiler_options = ' -std=c++0x'
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 """""""""""""phpfolding setting""""""""""""""""""""
 map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>
+
 """""""""""""taglist setting"""""""""""""""""""""""
 map <F3> : Tlist<CR>
+
 """"""""""""""cscope setting"""""""""""""""""""""""      
 set cscopequickfix=s-,c-,d-,i-,t-,e-    
 if has("cscope")    
@@ -100,3 +113,5 @@ nmap <C-@>e :cs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <C-@>f :cs find f <C-R>=expand("<cfile>")<CR><CR>  
 nmap <C-@>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>  
 nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+"""""""""""""my map configuration"""""""""""""""""""""
+

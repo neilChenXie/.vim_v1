@@ -22,3 +22,5 @@ plugin list:
 	no nodejs needed
 3/14/2015:
 	ubuntu 12.02 must fork under /etc/vim
+5/10/2015:
+	YouCompleteMe autocompletion with CMake succeed

@@ -22,14 +22,11 @@ static void<CURSOR>
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include <stdio.h>
-#include <string.h>
-#include <stdint.h>
 using namespace std;
 
 int main ( int argc, char *argv[] )
 {<CURSOR>
-<SPLIT>	return EXIT_SUCCESS;
+<SPLIT>	return 0;
 }				// ----------  end of function main  ----------
 == Idioms.enum == map:ie, shortcut:e  ==
 enum |?ENUM_NAME| {<CURSOR>
