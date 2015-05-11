@@ -17,6 +17,7 @@ plugin list:
 			\im <iostream> <cstdlib> <type.h> using namepace std;
 	YouCompleteMe
 	tern_for_vim
+		need run: npm install
 
 3/3/2015:
 	add C++11 support for syntastic (one line in vimre)
