@@ -72,13 +72,18 @@ helptags ~/.vim/doc
 
 """"""""""""file for YouCompleteMe"""""""""""""""""
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
-let g:ycm_confirm_extra_conf = 0
-let g:ycm_min_num_of_chars_for_completion = 1
-let g:ycm_error_symbol = '>>'
-let g:ycm_warning_symbol = '>*'
+"let g:ycm_confirm_extra_conf = 0
+"let g:ycm_min_num_of_chars_for_completion = 1
+"let g:ycm_error_symbol = '>>'
+"let g:ycm_warning_symbol = '>*'
+let g:ycm_show_diagnostics_ui = 0
 
 """"""""""""syntastic support C++11""""""""""""""""
 let g:syntastic_cpp_compiler_options = ' -std=c++0x'
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
@@ -115,4 +120,3 @@ nmap <C-@>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-@>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>  
 nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 """""""""""""my map configuration"""""""""""""""""""""
-

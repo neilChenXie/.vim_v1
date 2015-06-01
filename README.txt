@@ -28,3 +28,5 @@ plugin list:
 5/10/2015:
 	YouCompleteMe autocompletion with CMake succeed
 	add Node.js autocompletion
+5/31/2015:
+	Solve the compatibility between YouCompleteMe and Syntastic
