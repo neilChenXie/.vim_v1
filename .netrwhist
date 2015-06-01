@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/usr/share/bash-completion'
 let g:netrw_dirhist_2='/home/chen/Dropbox/Project/Nodejs-server/TmoteServer/router'
 let g:netrw_dirhist_3='/home/chen/Dropbox/Project/Nodejs-server/TmoteServer/handler'
 let g:netrw_dirhist_4='/home/chen/Dropbox/Project/Nodejs-server/TmoteServer/log/skyTmote'
+let g:netrw_dirhist_5='/home/chen/Study'

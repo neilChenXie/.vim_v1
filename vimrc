@@ -96,6 +96,7 @@ map <F7> <Esc>:DisablePHPFolds<Cr>
 
 """""""""""""taglist setting"""""""""""""""""""""""
 map <F3> : Tlist<CR>
+let g:Tlist_Exit_OnlyWindow = 1
 
 """"""""""""""cscope setting"""""""""""""""""""""""      
 set cscopequickfix=s-,c-,d-,i-,t-,e-    

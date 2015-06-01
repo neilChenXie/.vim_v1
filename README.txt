@@ -22,11 +22,10 @@ plugin list:
 3/3/2015:
 	add C++11 support for syntastic (one line in vimre)
 	rm jslint because syntastic included.
-	no nodejs needed
 3/14/2015:
 	ubuntu 12.02 must fork under /etc/vim
 5/10/2015:
 	YouCompleteMe autocompletion with CMake succeed
-	add Node.js autocompletion
+	add Node.js autocompletion--Tern for Vim (need node.js and npm)
 5/31/2015:
 	Solve the compatibility between YouCompleteMe and Syntastic
