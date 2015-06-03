@@ -29,3 +29,5 @@ plugin list:
 	add Node.js autocompletion--Tern for Vim (need node.js and npm)
 5/31/2015:
 	Solve the compatibility between YouCompleteMe and Syntastic
+6/3/2015:
+	make solarized color backgroud transparent

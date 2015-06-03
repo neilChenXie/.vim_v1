@@ -65,10 +65,15 @@ set smartindent
 set shiftwidth=4
 set tabstop=4
 set showmatch
-set background=dark
 set showcmd
-colorscheme solarized
 helptags ~/.vim/doc
+
+""""""""""""""""""colorscheme""""""""""""""""""""""
+let g:solarized_termtrans = 1
+set background=dark
+syntax enable
+colorscheme solarized
+"colorscheme pyte
 
 """"""""""""file for YouCompleteMe"""""""""""""""""
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
